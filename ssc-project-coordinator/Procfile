@@ -1,0 +1,2 @@
+# Railway deployment configuration
+web: cd ssc-project-coordinator && uvicorn app.main:app --host 0.0.0.0 --port $PORT 
